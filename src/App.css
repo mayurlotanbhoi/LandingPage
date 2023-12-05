@@ -1,0 +1,8 @@
+
+.logo::before{
+  content: "uno";
+  color: red;
+  font-size: xx-large;
+  font-weight: bolder;
+
+}
