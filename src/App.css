@@ -12,10 +12,10 @@
   --secondary-color: #333333;
   --background-color: #F7F7F7;
 }
-body{
+/* body{
   overflow-x: hidden;
   font-size: 20px;
-}
+} */
 
 .logo::before{
   content: "uno";
@@ -135,6 +135,18 @@ body{
     max-width: 100vw;
     display: flex;
     justify-content: center;
+  }
+  .nav-mobile-menu{
+    height: 100%;
+   
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+    z-index: 999999;
+
+   
   }
   
   
