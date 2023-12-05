@@ -1,16 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 
 import './App.css'
+import Banner from './Pages/Banner'
 import NavBar from './Pages/navBar'
-import Container from 'react-bootstrap/esm/Container'
+import Footer from './Pages/Footer'
+import WorkedWith from './Pages/WorkedWith'
+import MiddlePage from './Pages/middlePage'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
+    
      <NavBar />
+     <Banner/>
+     <WorkedWith/>
+     <MiddlePage/>
+     <Footer/>
     </>
   )
 }
