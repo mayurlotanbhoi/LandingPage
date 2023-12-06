@@ -12,10 +12,10 @@
   --secondary-color: #333333;
   --background-color: #F7F7F7;
 }
-/* body{
+body{
   overflow-x: hidden;
   font-size: 20px;
-} */
+}
 
 .logo::before{
   content: "uno";
